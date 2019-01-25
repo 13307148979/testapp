@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_backcolor"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/zl_headerBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_topbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text32"
+                android:textSize="@dimen/text_size_14"
+                android:text="对话列表："/>
+            <ListView
+                android:id="@+id/listview_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:divider="@null">
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text32"
+                android:textSize="@dimen/text_size_14"
+                android:text="编辑："/>
+            <TextView
+                android:id="@+id/content_num_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text64"
+                android:textSize="@dimen/text_size_12"
+                android:gravity="right"
+                android:layout_marginRight="10dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/content_text_tv"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:padding="8dp"
+                android:minHeight="30dp"
+                android:background="@drawable/btn_solid_white_lined3_shape"
+                android:textColorHint="@color/text99"
+                android:lineSpacingExtra="6dp"
+                android:hint="请输入内容（不超过100字）"
+                android:textSize="@dimen/text_size_12"
+                android:textColor="@color/text64" />
+            <Button
+                android:id="@+id/submit_send_bt"
+                android:layout_width="56dp"
+                android:layout_height="30dp"
+                android:text="发送"
+                android:onClick="onClick"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/btn_submit_blue_corler"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

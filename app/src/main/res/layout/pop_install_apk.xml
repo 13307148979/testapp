@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_white_shape_trans"
+    android:padding="8dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_new_ver_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_choose_14"
+            android:orientation="vertical"
+           >
+
+            <com.teplot.testapp.common.AlignTextView
+                android:id="@+id/tv_ver_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:text="安装应用需要打开未知来源权限，请去设置中开启权限。"
+                android:textColor="@color/pop_content"
+                android:textSize="@dimen/text_size_14" />
+        </LinearLayout>
+
+        <View style="@style/width_line2" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/btn_new_ver_info_no"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="42.0dip"
+                android:textColor="@color/text64"
+                android:background="@drawable/listview_bg"
+                android:text="不安装"
+                android:textSize="@dimen/text_size_14" />
+            <View style="@style/pop_height_line"
+                android:layout_marginTop="8dp"/>
+            <Button
+                android:id="@+id/btn_new_ver_info_yes"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="42.0dip"
+                android:textColor="@color/text32"
+                android:background="@drawable/listview_bg"
+                android:text="去开启"
+                android:textSize="@dimen/text_size_14" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

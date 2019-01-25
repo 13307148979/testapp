@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/text_item_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shaixuan"
+        android:textColor="@color/hint_text"
+        android:singleLine="true"
+        android:gravity="center"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:background="@drawable/gridview_choose_selector_background"
+        android:textSize="@dimen/text_content_size"/>
+</LinearLayout>

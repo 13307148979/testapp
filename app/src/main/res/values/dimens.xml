@@ -1,0 +1,32 @@
+<resources>
+    <!-- font size -->
+    <dimen name="top_title_height">46dp</dimen>
+    <dimen name="margin_choose_14">14dp</dimen>
+    <dimen name="margin_choose_16">16dp</dimen>
+    <dimen name="margin_choose_06">6dp</dimen>
+    <dimen name="margin_choose_12">12dp</dimen>
+    <!-- text size -->
+    <dimen name="top_title_size">16sp</dimen>
+
+    <dimen name="text_title_size">14sp</dimen>
+    <dimen name="text_content_size">12sp</dimen>
+    <dimen name="text_time_size">10.0sp</dimen>
+
+    <dimen name="text_size_11">11.0sp</dimen>
+    <dimen name="text_size_13">13.0sp</dimen>
+    <dimen name="text_size_09">9.0sp</dimen>
+    <dimen name="text_size_08">8.0sp</dimen>
+    <dimen name="text_size_06">6.0sp</dimen>
+    <dimen name="text_size_10">10.0sp</dimen>
+    <dimen name="text_size_12">12.0sp</dimen>
+    <dimen name="text_size_14">14.0sp</dimen>
+    <dimen name="text_size_15">15.0sp</dimen>
+    <dimen name="text_size_16">16.0sp</dimen>
+    <dimen name="text_size_17">17.0sp</dimen>
+    <dimen name="text_size_18">18.0sp</dimen>
+    <dimen name="text_size_20">20.0sp</dimen>
+    <dimen name="text_size_25">25.0sp</dimen>
+    <dimen name="text_size_26">26.0sp</dimen>
+    <dimen name="text_size_62">62.0sp</dimen>
+
+</resources>

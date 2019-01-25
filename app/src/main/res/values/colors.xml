@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="pop_content">#ff333333</color>
+    <color name="tab_text_color_pre">#FF1EA0E3</color>
+    <color name="tab_text_color_nol">#FF999999</color>
+
+    <color name="high_top_color">#FF1EA0E3</color>
+    <color name="low_top_color">#FF35BCF0</color>
+    <color name="black_acount"> #232336</color>
+    <color name="blue">#FF1D9FE2</color>
+    <color name="red">#FFFF0000</color>
+    <color name="yellow">#FFFF4E00</color>
+    <color name="yellow2">#FFF6900B</color>
+    <color name="yellow3">#FFFFF7EA</color>
+    <color name="yellow4">#FFE5BE5B</color>
+
+    <color name="blue2">#591D9FE2</color>
+    <color name="red2">#33FF0000</color>
+
+    <color name="lv_perssed">#ffdee0e0</color>
+    <color name="change_pwd">#1A31B4EE</color>
+    <color name="test">#676767</color>
+
+    <color name="list_divider">#fff3f3f3</color>
+    <color name="main_backcolor">#EEEEEE</color>
+    <color name="green">#23B349</color>
+    <color name="green2"> #6DB529</color>
+    <color name="text_d3">#EEEEEE</color>
+
+    <color name="bt_background">#0094E6</color>
+    <color name="bt_background2">#FF22A3E5</color>
+
+    <!-- 根据原型图的选择   #51a5f5-->
+    <color name="bt_check_background"> #29AAE7</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="subtransparent">#e0000000</color>
+    <color name="translucent_white">#Afffffff</color>
+    <color name="translucent_white2">#E6ffffff</color>
+    <color name="translucent_black">#7f000000</color>
+    <color name="translucent_black25">#40000000</color>
+    <color name="translucent_white30">#4Dffffff</color>
+    <color name="grey">#ff5b5a5a</color>
+
+    <color name="text99">#999999</color>
+    <color name="text64">#646464</color>
+    <color name="text32">#333333</color>
+    <color name="text48">#484848</color>
+    <color name="text88">#888888</color>
+    <color name="text66">#666666</color>
+
+    <color name="line_color">#FF33B7EF</color>
+    <color name="line_color2">#FF4CCB91</color>
+
+
+    <color name="hint_text">#FF999999</color>
+    <color name="main_line"> #EEEEEE</color>
+
+    <color name="gridview_unchoose">#FFD3D3D3</color>
+    <color name="gridview_choose">#FF29AAE7</color>
+    <color name="textf33">#FF333333</color>
+    <color name="textf66">#FF666666</color>
+    <color name="text123">#DFDFDF</color>
+    <color name="textd3">#FFD3D3D3</color>
+    <color name="textf74">#FF747474</color>
+</resources>

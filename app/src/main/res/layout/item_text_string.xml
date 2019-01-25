@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/text_item_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shaixuan"
+        android:textColor="@color/text66"
+        android:lineSpacingExtra="4dp"
+        android:padding="8dp"
+        android:textSize="@dimen/text_content_size"/>
+</LinearLayout>

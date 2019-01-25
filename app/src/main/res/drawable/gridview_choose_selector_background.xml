@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--选中效果-->
+    <item android:state_selected="true">
+        <shape >
+            <solid android:color="@color/white"/>
+            <stroke android:color="@color/gridview_choose"
+                android:width="1dp"/>
+            <corners android:radius="3dp"/>
+        </shape>
+    </item>
+    <!--默认效果-->
+    <item>
+        <shape >
+            <solid android:color="@color/white"/>
+            <stroke android:color="@color/gridview_unchoose"
+                android:width="1dp"/>
+            <corners android:radius="3dip"/>
+        </shape>
+    </item>
+</selector>

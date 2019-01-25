@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- [shape] 根标签，声明一个shape
+         [gradient] 声明该shape的属性-渐变色,除此外还有其他属性如corners、stroke、size等等
+         [android:angle]渐变色的角度，举例来说，0代表从上至下颜色渐变；45代表从左至右颜色渐变；90代表从下至上颜色渐变…
+         [android:startColor&android:endColor] 很好理解，渐变开始的颜色和渐变结束时的颜色（从什么颜色变到什么颜色）-->
+    <gradient
+        android:angle="360"
+        android:startColor="@color/high_top_color"
+        android:endColor="@color/low_top_color"/>
+</shape>

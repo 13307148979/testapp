@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">人工智能</string>
+
+    <string name="title_activity_home_tap">HomeTapActivity</string>
+
+    <string name="text_begin">请开始说话…</string>
+    <string formatted="false" name="tts_toast_format">缓冲进度为%d%%，播放进度为%d%%</string>
+    <string name="voice_shuoming_text">说明：\n1. 语言为中英文的发音人可以支持中英文的混合朗读。
+     \n2. 英文发音人只能朗读英文，中文无法朗读。；
+     \n3. 汉语发音人只能朗读中文，遇到英文会以单个字母的方式进行朗读。</string>
+
+
+
+    <string name="title_0">预警地图</string>
+    <string name="title_1">预警列表</string>
+    <string name="title_2">预警统计</string>
+    <string name="title_3">应急联系人</string>
+    <string name="title_4">消息中心</string>
+    <string name="title_5">一张图监测</string>
+    <string name="title_6">重要天气</string>
+    <string name="title_7">灾情直播</string>
+    <string name="title_8">系统信息</string>
+
+
+
+    <string name="qx">气象站</string>
+    <string name="sz">水质站</string>
+    <string name="jg">井盖站</string>
+    <string name="sj">水浸站</string>
+
+    <string name="dby">待保养</string>
+    <string name="ybj">已保养</string>
+
+    <string name="shaixuan">筛选</string>
+    <string name="oi_title_text1">1.操作说明1</string>
+    <string name="oi_title_text2">2.操作说明2</string>
+    <string name="oi_title_text3">3.设备巡查操作说明</string>
+    <string name="oi_title_text4">3.基础操作说明</string>
+
+    <string name="oi_content_text672">由于今年第四号台风的影响，我市普降暴雨，部分地区积水严重，多个易涝点出现内涝现象，导致北京路、长江路、淮河路出现严重的交通拥堵。请有关部门及时做好防灾应急工作。</string>
+
+    <string name="shiming_content">证件必须是清晰色彩原件电子版本。可以是扫描件或者数码拍摄照片。仅支持JPG、PNG、JPEG的图片格式。</string>
+
+    <string name="oi_content_text1">1-1. 操作说明1.1。
+     \n1-2.  操作说明1.2；
+     \n1-3.  操作说明1.3。</string>
+    <string name="oi_content_text2">1-1. 操作说明2.1。
+     \n1-2.  操作说明2.2；
+     \n1-3.  操作说明2.3。</string>
+    <string name="oi_content_text3">3-1. “待保养”页面内显示所有待保养的任务；
+        \n3-2. 点击任意一个待保养设备，即可进入“保养中”页面，再根据保养得到的情况提交相应结果即可，提交后相应设备会在“已保养”页面显示；
+        \n3-3. 在“已保养”页面，点击任意一个已保养设备，即可进入“保养详情”页面，查看设备具体的保养信息。</string>
+    <string name="oi_content_text4">3-1. 更换头像：点击头像按钮即可选择图片更换头像，支持手机拍照和相册上传来更换头像；
+        \n3-2. 修改密码：点击“修改密码”即可进入修改密码页面，进入页面后会显示当前账号名，根据对应的提示来完成修改密码的功能，修改完成后会回到“设置界面”，重新登陆则需输入修改后的密码；
+        \n3-3. 关于：点击“关于”即可进入关于页面，进入页面后会显示当前版本号、客户端的logo和名称等一些信息，其中“网站”与“微博”可点击进入相应的网站，点击“检查更新”按钮，根据提示完成客户端版本的更新升级；
+        \n3-4. 退出登录：点击“退出登录”会弹出对话框，选择“确定”会退出客户端。
+    </string>
+
+    <!--  测试===保险-->
+    <string name="baoxian_content_1">1.本产品针对长期种植玉米的农户，保障农户玉米收到干旱的损失。
+    \n2.本产品有这良好的赔利，可以大大的减少农户的损失。</string>
+    <string name="baoxian_content_2">在保险期间内，保险玉米因发生保险事故造成部分损失的，保险人在赔偿时实施10%的绝对免赔率。</string>
+    <string name="daikuan_content_2">1.目标客户需是新型农业经营主体，种植合作社/家庭农场/种植大户/种植公司;
+    \n2.借款人年龄：18周岁-60周岁;
+    \n3.借款人婚姻状况：已婚</string>
+
+    <string name="tianqi_content_1">气象预警：
+    \n预计8月份我县降水偏少，月降水量60毫米左右；8月份气温偏高,
+月平均气温23.5℃左右。主要降水过程为：4日左右中到大雨，南
+部雨量偏大；</string>
+    <string name="tianqi_content_2">农事建议：
+    \n⑴8月上旬应继续做好防汛工作；⑵8月中下旬降水偏少，将有“秋
+吊”天气发生，应提前做好预防，并做好人工增雨防雹工作；⑶做
+好酒葡萄病害防治。（以上仅供参考）</string>
+
+    <string name="type">类  型：</string>
+    <string name="location">位  置：</string>
+
+    <string name="update_version_find_new">版本：%1$s\n%2$s\n</string>
+    <string name="update_version_is_new">您当前已经是最新版本</string>
+    <string name="update_downloading_pre">%1$d%%</string>
+
+    <string name="me_change_pwd">修改密码</string>
+    <string name="btn_check">确    认</string>
+
+    <string name="login_img_text">深圳市地面坍塌预警信息系统\n手机版V2.0</string>
+    <string name="login_user_hint">请输入手机号</string>
+    <string name="login_pwd_hint">请输入密码</string>
+    <string name="btn_quick_register">登		录</string>
+    <string name="confirm_exit">确定要退出吗?</string>
+    <!-- 只能输入数字和字母-->
+    <string name="alphabet_and_number">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="number">0123456789</string>
+    <string name="number2">0123456789.</string>
+    <!-- 网络相关的字符串 -->
+    <string name="exit_to_close">退出关闭</string>
+    <string name="network_conn_fail_cfg">网络连接失败，是否进行网络设置</string>
+    <string name="network_not_connected">网络连接失败，请检查网络设置</string>
+    <string name="data_parser_failed">数据解析异常</string>
+    <string name="io_exception_error">数据流异常</string>
+    <string name="http_status_code_error">网络异常，错误码：%d</string>
+    <string name="http_exception_error">网络异常，请求超时</string>
+    <string name="socket_exception_error">网络异常，读取数据超时</string>
+    <string name="connect_server_refesed">连接服务端失败，可能正在维护中，请稍后再试。</string>
+    <string name="data_load_fail_please_try_again">数据加载失败，请重试</string>
+    <string name="app_run_code_error">程序开个小差,即将退出</string>
+
+    <!-- 关于我的相关字符串 -->
+    <string name="as_left_1">系统名称</string>
+    <string name="as_left_2">建设单位</string>
+    <string name="as_left_3">技术支持</string>
+    <string name="as_left_4">全国服务热线</string>
+    <string name="as_right_1">深圳市地面坍塌预警信息系统手机版V2.0</string>
+    <string name="as_right_2">深圳市房地产评估发展中心</string>
+    <string name="as_right_3">深圳市昆特科技有限公司</string>
+    <string name="as_right_4">400-716-5998</string>
+    <!-- 修改密码相关字符串 -->
+    <string name="pwd_left_0">账      号</string>
+    <string name="pwd_left_1">原  密  码</string>
+    <string name="pwd_left_2">新  密  码</string>
+    <string name="pwd_left_3">确认密码</string>
+    <string name="change_pwd_hint1">请输入旧密码</string>
+    <string name="change_pwd_hint2">请输入新密码</string>
+    <string name="change_pwd_hint3">请再次输入新密码</string>
+    <string name="pwd_suggest">密码支持6～12位的字符，建议字母、数字组合。</string>
+    <string name="pwd_suggest2">密码只能是6位数字的组合。</string>
+
+    <string name="search_text">搜索</string>
+    <string name="search_hint">隐/隐患点处理状况搜索</string>
+    <string name="red_map_text">未治理:</string>
+    <string name="yellow_map_text">正在治理:</string>
+    <string name="green_map_text">已治理:</string>
+
+    <!-- 用户相关字符串 -->
+    <string name="user_name">姓    名</string>
+    <string name="user_age">年    龄</string>
+    <string name="user_sex">性    别</string>
+    <string name="user_phone">号    码</string>
+    <string name="user_time">创建时间</string>
+    <string name="user_organization">组织机构</string>
+
+    <string name="new_app">发现新版本</string>
+
+
+
+    <string name="pull_to_last_refresh">最后更新:</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新\u2026</string>
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+
+    <!-- 下拉刷新上拉加载String -->
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="pullup_to_load_more">下拉加载更多</string>
+
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+    <string name="refresh_time">刷新时间</string>
+
+    <string name="permission_recode_audio_hint">您禁止了录音权限，无法正常录音，请手动开启权限。</string>
+    <string name="permission_access_coarse_location_hint">您禁止了定位权限，无法正常定位，请手动开启权限。</string>
+    <string name="permission_white_external_hint">您禁止了读写手机存储权限，无法正常使用此功能，请手动开启权限。</string>
+    <string name="permission_camera_hint">您禁止了相机权限，无法正常使用此此功能，请手动开启权限。</string>
+    <string name="permission_call_phone_hint">您禁止了拨打电话权限，无法正常使用此此功能，请手动开启权限。</string>
+
+    <string name="permission_read_external_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_READ_EXTERNAL_STORAGE</string>
+
+    <string name="permission_get_accounts_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_GET_ACCOUNTS</string>
+    <string name="permission_read_phone_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_READ_PHONE_STATE</string>
+
+    <string name="permission_access_fine_location_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_ACCESS_FINE_LOCATION</string>
+
+
+</resources>

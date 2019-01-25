@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="lv_focused" type="drawable">#ffececec</item>
+    <item name="lv_perssed" type="drawable">#ffdee0e0</item>
+    <item name="darkgray" type="drawable">#ff808080</item>
+    <item name="transparent" type="drawable">#00000000</item>
+    <item name="white" type="drawable">#ffffffff</item>
+    <item name="blue" type="drawable">#770000ff</item>
+    <item name="divider" type="drawable">#ffd8dad9</item>
+    <item name="divider_yxt" type="drawable">#ff2a7bb2</item>
+    <item name="menusubbg" type="drawable">#ffe7e7e7</item>
+    <item name="topbar_btn_bg_normal" type="drawable">#ff0069b3</item>
+    <item name="topbar_btn_bg_pressed" type="drawable">#ff84c9f9</item>
+    <item name="topbar_bg" type="drawable">#ff1e83cb</item>
+    <item name="common_bg" type="drawable">#EFEFEF</item>
+    <item name="login_ad_dot_normal" type="drawable">#ffffffff</item>
+    <item name="login_ad_dot_select" type="drawable">#ff1e83cb</item>
+    <item name="btn_bg_normal" type="drawable">#ff1e83cb</item>
+    <item name="btn_bg_pressed" type="drawable">#ffff6632</item>
+    
+    
+    <item name="btn_green_pressed" type="drawable">#679233</item>
+    <item name="btn_green_normal" type="drawable">#81B640</item>
+    <item name="btn_gray_pressed" type="drawable">#ff808080</item>
+
+</resources>

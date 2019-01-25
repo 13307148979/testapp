@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:paddingTop="8dp"
+    android:background="@drawable/btn_white_shape_trans2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_content_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:text="请先登录"
+        android:layout_marginTop="26dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/text32"
+        android:textSize="@dimen/text_size_16" />
+
+    <TextView
+        android:id="@+id/tv_content_center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16.0dip"
+        android:gravity="center"
+        android:text="该功能登录后才可实用，请先登录。"
+        android:lineSpacingMultiplier="1.2"
+        android:maxLines="12"
+        android:textColor="@color/text66"
+        android:textSize="@dimen/text_size_14" />
+
+    <View style="@style/pop_width_line"
+        android:layout_marginTop="18dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40.0dip"
+            android:text="取消"
+            android:background="@drawable/bottem_right_radius_shape_white"
+            android:textColor="@color/text99"
+            android:textSize="@dimen/text_size_14"/>
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40.0dip"
+            android:text="去登录"
+            android:background="@drawable/bottem_right_radius_shape_blue"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_14"/>
+    </LinearLayout>
+
+</LinearLayout>

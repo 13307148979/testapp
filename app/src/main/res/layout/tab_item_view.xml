@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/tab_item_iv"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:focusable="false"
+            android:padding="3dp"
+            android:src="@drawable/tab_map_btn" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/red_rots"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="right"
+            android:textSize="@dimen/text_size_08"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:background="@drawable/red_cicle_img"
+            />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tab_item_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="首页"
+        android:textColor="@drawable/tab_text_color"
+        android:textSize="@dimen/text_time_size" >
+    </TextView>
+
+</LinearLayout>
